@@ -11,9 +11,8 @@ export const roboto_mono = Roboto_Mono({
   display: 'optional',
 });
 
-// export const dm_sans = DM_Sans({
-//   variable: "--",
-//   weight: "400",
-//   style: "normal",
-//   display: 'optional',
-// });
+export const dm_sans = DM_Sans({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'optional'
+});
