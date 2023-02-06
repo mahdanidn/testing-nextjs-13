@@ -6,12 +6,14 @@ export const inter = Inter({
 });
 
 export const roboto_mono = Roboto_Mono({
+  variable: '--font-roboto-mono',
   subsets: ['latin'],
   display: 'optional',
 });
 
-export const dm_sans = DM_Sans({
-  weight: "400",
-  style: "normal",
-  display: 'optional',
-});
+// export const dm_sans = DM_Sans({
+//   variable: "--",
+//   weight: "400",
+//   style: "normal",
+//   display: 'optional',
+// });
